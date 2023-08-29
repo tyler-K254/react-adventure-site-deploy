@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './location.css'
 
 
-const RockClimbing = () => {
+const Ziplining = () => {
     useEffect(() => {
         const images = document.querySelectorAll('.w-layout-blockcontainer.container-5');
         
@@ -138,4 +138,4 @@ const RockClimbing = () => {
   );
 };
 
-export default RockClimbing;
+export default Ziplining;

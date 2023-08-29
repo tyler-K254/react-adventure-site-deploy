@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './location.css'
-
+import { Link } from 'react-router-dom';
 
 const RockClimbing = () => {
     useEffect(() => {
@@ -24,9 +24,9 @@ const RockClimbing = () => {
             loading="lazy" width="50" sizes="65px"
             srcSet="https://uploads-ssl.webflow.com/64e8a95c353db6719059b02a/64e8d86fdb928c44d913806b_rock-climbing-vector-p-500.png 500w, https://uploads-ssl.webflow.com/64e8a95c353db6719059b02a/64e8d86fdb928c44d913806b_rock-climbing-vector-p-800.png 800w, https://uploads-ssl.webflow.com/64e8a95c353db6719059b02a/64e8d86fdb928c44d913806b_rock-climbing-vector.png 915w"
             alt="" className="image" />
-            <a href="/ziplining">
+            <Link to="/ziplining">
              <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
         </div>
       </div>
       
