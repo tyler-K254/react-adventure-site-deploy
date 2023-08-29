@@ -18,7 +18,7 @@ const RockClimbing = () => {
     <div className="body">
       <div className="section cc-store-home-wrap">
         <div className="w-layout-blockcontainer container-2 w-container">
-          <div style={{marginLeft:'300px'}} className="heading-jumbo">ROCK CLIMBING<br /></div>
+          <div style={{marginLeft:'300px'}} className="heading-jumbo">ROCK-CLIMBING<br /></div>
           <img
             src="https://uploads-ssl.webflow.com/64e8a95c353db6719059b02a/64e8d86fdb928c44d913806b_rock-climbing-vector.png"
             loading="lazy" width="50" sizes="65px"
