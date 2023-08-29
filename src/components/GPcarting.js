@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './location.css'
+import { Link } from 'react-router-dom';
 
 
 const GPcarting = () => {
@@ -18,19 +19,19 @@ const GPcarting = () => {
     <div className="body">
       <div className="section cc-store-home-wrap">
         <div className="w-layout-blockcontainer container-2 w-container">
-            <a href="/archery">
+            <Link to ="/archery">
             <img style={{width:'60px', marginBottom:'20px', }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
+             </Link>
           <div className="heading-jumbo">GP KARTING<br /></div>
           <img style={{marginBottom:'10px'}}
             src="images/gp-karting-vector.png"
             loading="lazy" width="50" sizes="65px"
             srcSet="images/gp-karting-vector.png"
             alt="" className="image" />
-            <a href="/skating">
+            <Link to ="/skating">
              <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
         </div>
         
       </div>
@@ -125,13 +126,13 @@ const GPcarting = () => {
      
     </div>
     <div style={{marginTop:"50px"}}>
-      <a href="/archery">
+      <Link to ="/archery">
             <img style={{width:'60px', marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
-      <a href="/skating">
+             </Link>
+      <Link to ="/skating">
              <img style={{width:'60px', marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
       </div>
     {/* <Footer /> */}
     </div>

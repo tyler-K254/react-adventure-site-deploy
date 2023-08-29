@@ -117,13 +117,13 @@ const RockClimbing = () => {
       </div>
       </div>
       <div style={{marginTop:"50px"}}>
-      <a href="/rock-climbing">
+      <Link to="/rock-climbing">
             <img style={{width:'60px', marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
-      <a href="/ziplining">
+             </Link>
+      <Link to="/ziplining">
              <img style={{width:'60px', marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
       </div>
     
     </div>

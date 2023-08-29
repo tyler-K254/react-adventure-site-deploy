@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import './location.css'
+import './location.css';
+import { Link } from 'react-router-dom';
 
 
 const LaserTag = () => {
@@ -18,19 +19,19 @@ const LaserTag = () => {
     <div className="body">
       <div className="section cc-store-home-wrap">
         <div className="w-layout-blockcontainer container-2 w-container">
-            <a href="/paintball">
+            <Link to="/paintball">
             <img style={{width:'60px', marginBottom:'20px', }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
+             </Link>
           <div className="heading-jumbo">BOWLING<br /></div>
           <img style={{marginBottom:'20px'}}
             src="images/bowling-vector.png"
             loading="lazy" width="50" sizes="65px"
             srcSet="images/bowling-vector.png"
             alt="" className="image" />
-            <a href="/">
+            <Link to="/">
              <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
         </div>
         
       </div>
@@ -126,13 +127,13 @@ const LaserTag = () => {
      
     </div>
     <div style={{marginTop:"50px"}}>
-      <a href="/paintball">
+      <Link to="/paintball">
             <img style={{width:'60px', marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
-      <a href="/">
+             </Link>
+      <Link to="/">
              <img style={{width:'60px', marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
       </div>
     {/* <Footer /> */}
     </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './location.css'
-
+import { Link } from 'react-router-dom';
 
 const Ziplining = () => {
     useEffect(() => {
@@ -18,19 +18,19 @@ const Ziplining = () => {
     <div className="body">
       <div className="section cc-store-home-wrap">
         <div className="w-layout-blockcontainer container-2 w-container">
-        <a href="/rock-climbing">
+        <Link to="/rock-climbing">
             <img style={{width:'60px', marginBottom:'20px', }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
+             </Link>
           <div className="heading-jumbo">ZIPLINING<br /></div>
           <img style={{marginBottom:'15px', width:'75px'}}
             src="images/zipline-vector.png"
             loading="lazy" width="50" sizes="65px"
             srcSet="images/zipline-vector.png"
             alt="vector" className="image" />
-            <a href="/archery">
+            <Link to="/archery">
              <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
         </div>
       </div>
       
@@ -121,13 +121,13 @@ const Ziplining = () => {
         </div>
       </div>
       <div style={{marginTop:"90px"}}>
-      <a href="/rock-climbing">
+      <Link to="/rock-climbing">
             <img style={{width:'60px', marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
-             </a>
-      <a href="/archery">
+             </Link>
+      <Link to="/archery">
              <img style={{width:'60px', marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
-             </a>
+             </Link>
       </div>
     </div>
 
