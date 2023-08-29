@@ -102,21 +102,21 @@ const Bowling = () => {
         <h1 style={{ marginBottom: '30px' }}>Activity Details</h1>
        
         <div className='how-it-works-pic'>
-        <img  src='images/price-icon.png' alt='icon-image'/>
+        <img  src='images/price-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Cost:</h4>
         <h5> Ksh 1500</h5>
         </div>
         </div>
         <div style={{ marginLeft: '60px', marginRight: '90px' }} className='how-it-works-pic'>
-        <img src='images/location-icon.png' alt='icon-image'/>
+        <img src='images/location-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Location:</h4>
         <h5>Paintball Fury: The Waterfront Mall Karen</h5>
         </div>
         </div>
         <div className='how-it-works-pic'>
-        <img  src='images/phone-icon.png' alt='icon-image'/>
+        <img  src='images/phone-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Contacts:</h4>
         <h5>0745 655250</h5>

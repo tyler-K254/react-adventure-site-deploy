@@ -27,7 +27,7 @@ const RockClimbing = () => {
             src="images/zipline-vector.png"
             loading="lazy" width="50" sizes="65px"
             srcSet="images/zipline-vector.png"
-            alt="icon-image" className="image" />
+            alt="vector" className="image" />
             <a href="/archery">
              <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
              </a>
@@ -97,7 +97,7 @@ const RockClimbing = () => {
         <h1 style={{ marginBottom: '30px' }}>Activity Details</h1>
        
         <div className='how-it-works-pic'>
-        <img  src='images/price-icon.png' alt='icon-image'/>
+        <img  src='images/price-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Cost:</h4>
         <h5> Ksh 1500 (May vary depending on the activity)
@@ -105,7 +105,7 @@ const RockClimbing = () => {
         </div>
         </div>
         <div style={{ marginLeft: '30px', marginRight: '170px' }} className='how-it-works-pic'>
-        <img src='images/location-icon.png' alt='icon-image'/>
+        <img src='images/location-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Location:</h4>
         <h5>Flying Fox: The Hub Mall Karen
@@ -113,7 +113,7 @@ const RockClimbing = () => {
         </div>
         </div>
         <div className='how-it-works-pic'>
-        <img  src='images/phone-icon.png' alt='icon-image'/>
+        <img  src='images/phone-icon.png' alt='vector'/>
         <div className='mid-image-text'>
         <h4 style={{ marginTop: '20px', marginBottom: '5px' }}>Contacts:</h4>
         <h5>0715969696</h5>
