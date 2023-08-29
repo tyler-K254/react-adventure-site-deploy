@@ -82,7 +82,7 @@ const Ziplining = () => {
         <div className="container">
           <div className="divider"></div>
           <p className="summary-paragraph">
-          Flying Fox, an exhilarating adventure destination offers a range of adrenaline-packed activities that promise an unforgettable experience.   
+          Flying Fox is an exhilarating adventure destination that offers a range of adrenaline-packed activities that promise an unforgettable experience.   
         <br /><br />
         From the thrill of ziplining and airbag jumps to the excitement of the giant swing and more, Flying Fox caters to all adventure enthusiasts seeking an adrenaline rush.
         <br /><br />
