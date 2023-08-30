@@ -3442,7 +3442,7 @@ html {
   }
   
   .divider {
-    width: 1000px;
+    /* width: 1000px; */
     height: 1px;
     background-color: #eee;
   }
@@ -3652,6 +3652,7 @@ html {
     font-size: 64px;
     line-height: 80px;
     display: flex;
+    width: 100p;
   }
   
   .heading-jumbo-small {
@@ -4680,10 +4681,14 @@ html {
 
   .back-arrow{
     margin-right: 150px;
+    width:60px;
+    margin-bottom: 20px;
   }
 
   .front-arrow{
     margin-left: 110px;
+    width: 60px;
+    margin-bottom: 20px;
   }
   
   
@@ -4876,13 +4881,7 @@ html {
       position: static;
     }
 
-    .back-arrow{
-      margin-right: 60px;
-    }
-
-    .front-arrow{
-      margin-left: 30px;
-    }
+   
   
     .paragraph {
       position: relative;
@@ -5205,13 +5204,21 @@ html {
       padding-left: 10px;
       padding-right: 10px;
     }
+    .heading-jumbo{
+      font-size: 30px;
+      width: 140px;
+    }
+
+   
 
     .back-arrow{
-      margin-right: 50px;
+      margin-right: 20px;
+      width: 35px;
     }
 
     .front-arrow{
-      margin-left: 50px;
+      margin-left: 0px;
+      width: 35px;
     }
   
     .container-5 {

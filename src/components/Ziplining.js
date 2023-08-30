@@ -19,7 +19,7 @@ const Ziplining = () => {
       <div className="section cc-store-home-wrap">
         <div className="w-layout-blockcontainer container-2 w-container">
         <Link to="/rock-climbing">
-            <img style={{width:'60px', marginBottom:'20px', }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
+            <img  className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
              </Link>
           <div className="heading-jumbo">ZIPLINING<br /></div>
@@ -29,7 +29,7 @@ const Ziplining = () => {
             srcSet="images/zipline-vector.png"
             alt="vector" className="image" />
             <Link to="/archery">
-             <img style={{width:'60px', marginBottom:'20px', }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
+             <img  className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
              </Link>
         </div>
       </div>
@@ -122,11 +122,11 @@ const Ziplining = () => {
       </div>
       <div style={{marginTop:"90px"}}>
       <Link to="/rock-climbing">
-            <img style={{width:'60px', marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
+            <img style={{ marginBottom:'20px', marginRight:'50px' }} className='back-arrow' src = 'images/previous.png' alt='back-arrow'
              />
              </Link>
       <Link to="/archery">
-             <img style={{width:'60px', marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
+             <img style={{ marginBottom:'20px', marginLeft:'50px' }} className='front-arrow' src = 'images/forward.png' alt='front-arrow' />
              </Link>
       </div>
     </div>
